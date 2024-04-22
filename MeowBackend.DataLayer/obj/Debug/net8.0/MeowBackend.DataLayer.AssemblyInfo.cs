@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MeowBackend.DataLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f90220f14eeb02afb247522d0c4a42a6ad97f258")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05b6ac3d0c75ebe822ff77010aa435a791a43ea1")]
 [assembly: System.Reflection.AssemblyProductAttribute("MeowBackend.DataLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MeowBackend.DataLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

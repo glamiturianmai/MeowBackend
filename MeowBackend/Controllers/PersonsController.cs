@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MeowBackend.Core.Dtos;
 using MeowBackend.Business.Services;
+using MeowBackend.Core.Exeptions;
 namespace MeowBackend.Controllers;
 
 [ApiController]
@@ -40,8 +41,17 @@ public class Persons : Controller
     }
 
     [HttpDelete("{id}")]
-    public void DeletePersonById(Guid id)
+    public ActionResult DeletePersonById(Guid id)
     {
+        try
+        {
+            _personService.GetPersonById(id);
+        }
+        catch (Exception ex)
+        {
+            return NotFound(ex.Message);
+        }
+        return NoContent();
      
     }
 
