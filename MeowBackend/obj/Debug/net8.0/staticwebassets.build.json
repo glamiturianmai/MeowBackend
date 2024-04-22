@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "PZGikevS+Yp7bRv9tE83El+xfU41g69KIcYAdr0ISqM=",
+  "Source": "MeowBackend.API",
+  "BasePath": "_content/MeowBackend.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

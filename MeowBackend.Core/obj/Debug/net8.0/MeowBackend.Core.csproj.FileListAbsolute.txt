@@ -1,0 +1,15 @@
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Core\bin\Debug\net8.0\MeowBackend.Core.deps.json
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Core\bin\Debug\net8.0\MeowBackend.Core.dll
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Core\bin\Debug\net8.0\MeowBackend.Core.pdb
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Core\obj\Debug\net8.0\MeowBackend.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Core\obj\Debug\net8.0\MeowBackend.Core.AssemblyInfoInputs.cache
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Core\obj\Debug\net8.0\MeowBackend.Core.AssemblyInfo.cs
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Core\obj\Debug\net8.0\MeowBackend.Core.csproj.CoreCompileInputs.cache
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Core\obj\Debug\net8.0\MeowBackend.Core.sourcelink.json
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Core\obj\Debug\net8.0\MeowBackend.Core.dll
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Core\obj\Debug\net8.0\refint\MeowBackend.Core.dll
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Core\obj\Debug\net8.0\MeowBackend.Core.pdb
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Core\obj\Debug\net8.0\ref\MeowBackend.Core.dll
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Core\obj\Debug\net8.0\MeowBackend.Core.csproj.AssemblyReference.cache
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Core\bin\Debug\net8.0\MeowBackend.Core.runtimeconfig.json
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Core\obj\Debug\net8.0\MeowBackend.Core.genruntimeconfig.cache
