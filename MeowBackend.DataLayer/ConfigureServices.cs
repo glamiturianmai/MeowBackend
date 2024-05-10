@@ -8,6 +8,6 @@ public static class ConfigureServices
     {
         services.AddScoped<ICatsRepository, CatsRepository>();
         services.AddScoped<IPersonsRepository, PersonsRepository>();
-
+        services.AddScoped<IDogsRepository, DogsRepository>();
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MeowBackend.Core.Exeptions;
+namespace MeowBackend.Core.Exceptions;
 
 public class NotFoundException : Exception
 {

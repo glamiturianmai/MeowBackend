@@ -6,6 +6,8 @@ public interface ICatsRepository
 {
     public CatDto GetCatById(Guid id);
     List<CatDto> GetCats();
+    List<CatDto> GetCatsByPersonId(Guid personId);
 
-    CatDto GetCatByPersonId(Guid personId);
+    public Guid CreateCat(CatDto cat);
+
 }

@@ -20,7 +20,6 @@ C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\obj\Debug\net8.0\
 C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\obj\Debug\net8.0\MeowBackend.API.AssemblyInfoInputs.cache
 C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\obj\Debug\net8.0\MeowBackend.API.AssemblyInfo.cs
 C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\obj\Debug\net8.0\MeowBackend.API.csproj.CoreCompileInputs.cache
-C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\obj\Debug\net8.0\MeowBackend.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\obj\Debug\net8.0\MeowBackend.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\obj\Debug\net8.0\MeowBackend.API.sourcelink.json
 C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\obj\Debug\net8.0\staticwebassets.build.json
@@ -123,3 +122,14 @@ C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\
 C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\Serilog.Sinks.Elasticsearch.dll
 C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\Serilog.Sinks.File.dll
 C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\obj\Debug\net8.0\MeowBackend.API.MvcApplicationPartsAssemblyInfo.cs

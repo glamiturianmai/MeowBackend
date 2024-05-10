@@ -1,0 +1,20 @@
+2024-04-26 15:30:38.533 +03:00  INF [] Running app
+2024-04-26 15:30:39.324 +03:00  FTL [Microsoft.AspNetCore.Hosting.Diagnostics] Application startup exceptionSystem.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'MeowBackend.API.Configuration.ExceptionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+
+2024-04-26 15:30:39.426 +03:00  ERR [Microsoft.Extensions.Hosting.Internal.Host] Hosting failed to startSystem.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'MeowBackend.API.Configuration.ExceptionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+
+2024-04-26 15:30:39.775 +03:00  FTL [] Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'MeowBackend.API.Configuration.ExceptionMiddleware'.

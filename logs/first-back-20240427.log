@@ -1,0 +1,329 @@
+2024-04-27 20:49:48.378 +03:00  INF [] Running app
+2024-04-27 20:49:48.939 +03:00  FTL [Microsoft.AspNetCore.Hosting.Diagnostics] Application startup exceptionSystem.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'MeowBackend.API.Configuration.ExceptionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+
+2024-04-27 20:49:49.044 +03:00  ERR [Microsoft.Extensions.Hosting.Internal.Host] Hosting failed to startSystem.InvalidOperationException: Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'MeowBackend.API.Configuration.ExceptionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+
+2024-04-27 20:49:49.393 +03:00  FTL [] Unable to resolve service for type 'Serilog.ILogger' while attempting to activate 'MeowBackend.API.Configuration.ExceptionMiddleware'.
+2024-04-27 20:54:19.656 +03:00  INF [] Running app
+2024-04-27 20:54:20.748 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-04-27 20:54:20.763 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-04-27 20:54:20.772 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-04-27 20:54:20.777 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-04-27 20:54:20.781 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-04-27 20:54:26.947 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger - null null
+2024-04-27 20:54:27.604 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger - 301 0 null 672.0395ms
+2024-04-27 20:54:27.629 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-04-27 20:54:27.903 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 273.8507ms
+2024-04-27 20:54:28.008 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/swagger-ui.css - null null
+2024-04-27 20:54:28.009 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/swagger-ui-standalone-preset.js - null null
+2024-04-27 20:54:28.009 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-27 20:54:28.009 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/swagger-ui-bundle.js - null null
+2024-04-27 20:54:28.025 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-04-27 20:54:28.070 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 60.9476ms
+2024-04-27 20:54:28.126 +03:00  INF [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-04-27 20:54:28.215 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/swagger-ui.css - 200 143943 text/css 206.6623ms
+2024-04-27 20:54:28.248 +03:00  INF [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-04-27 20:54:28.249 +03:00  INF [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-04-27 20:54:28.285 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 276.0308ms
+2024-04-27 20:54:28.338 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 328.2094ms
+2024-04-27 20:54:28.438 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 415.7421ms
+2024-04-27 20:54:28.828 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-04-27 20:54:29.226 +03:00  ERR [MeowBackend.API.Configuration.ExceptionMiddleware] Something went wrong: Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/cats" for actions - MeowBackend.API.Controllers.CatsController.GetCat (MeowBackend.API),MeowBackend.API.Controllers.CatsController.GetCats (MeowBackend.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at MeowBackend.API.Configuration.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\Configuration\ExceptionMiddleware.cs:line 22
+2024-04-27 20:54:29.263 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 500 null application/json 435.352ms
+2024-04-27 20:58:06.198 +03:00  INF [] Running app
+2024-04-27 20:58:06.938 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-04-27 20:58:07.031 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-04-27 20:58:07.048 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-04-27 20:58:07.057 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-04-27 20:58:07.067 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-04-27 20:58:09.709 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-04-27 20:58:10.373 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 669.8664ms
+2024-04-27 20:58:10.425 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-27 20:58:10.446 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 21.3281ms
+2024-04-27 20:58:10.455 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-04-27 20:58:10.580 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 125.1916ms
+2024-04-27 20:58:10.981 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-04-27 20:58:11.288 +03:00  ERR [MeowBackend.API.Configuration.ExceptionMiddleware] Something went wrong: Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "GET api/cats" for actions - MeowBackend.API.Controllers.CatsController.GetCat (MeowBackend.API),MeowBackend.API.Controllers.CatsController.GetCats (MeowBackend.API). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerDocumentWithoutFilters(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwaggerAsync(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at MeowBackend.API.Configuration.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\Configuration\ExceptionMiddleware.cs:line 22
+2024-04-27 20:58:11.303 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 500 null application/json 322.7296ms
+2024-04-27 20:59:09.613 +03:00  INF [] Running app
+2024-04-27 20:59:10.951 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-04-27 20:59:10.958 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-04-27 20:59:10.961 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-04-27 20:59:10.963 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-04-27 20:59:10.964 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-04-27 20:59:13.174 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-04-27 20:59:13.831 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 671.8341ms
+2024-04-27 20:59:13.855 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-27 20:59:13.949 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-04-27 20:59:13.950 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 95.6788ms
+2024-04-27 20:59:14.181 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 233.2785ms
+2024-04-27 20:59:14.273 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-04-27 20:59:14.587 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 315.3291ms
+2024-04-27 21:00:22.198 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats - application/json 75
+2024-04-27 21:00:22.228 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'MeowBackend.API.Controllers.CatsController.CreateCat (MeowBackend.API)'
+2024-04-27 21:00:22.283 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "CreateCat", controller = "Cats"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid] CreateCat(MeowBackend.API.Models.Requestes.CreateCatRequest) on controller MeowBackend.API.Controllers.CatsController (MeowBackend.API).
+2024-04-27 21:00:23.913 +03:00  INF [MeowBackend.API.Controllers.CatsController] qqqqq, 123
+2024-04-27 21:00:23.931 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'System.Guid'.
+2024-04-27 21:00:23.958 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action MeowBackend.API.Controllers.CatsController.CreateCat (MeowBackend.API) in 1652.079ms
+2024-04-27 21:00:23.965 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'MeowBackend.API.Controllers.CatsController.CreateCat (MeowBackend.API)'
+2024-04-27 21:00:23.974 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats responded 200 in 1751.8994 ms
+2024-04-27 21:00:23.983 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats - 200 null application/json; charset=utf-8 1785.759ms
+2024-04-27 21:00:57.977 +03:00  INF [] Running app
+2024-04-27 21:00:58.392 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-04-27 21:00:58.408 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-04-27 21:00:58.419 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-04-27 21:00:58.424 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-04-27 21:00:58.428 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-04-27 21:01:00.815 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-04-27 21:01:01.506 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 705.2478ms
+2024-04-27 21:01:01.601 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-27 21:01:01.602 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-04-27 21:01:01.629 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 27.9922ms
+2024-04-27 21:01:01.713 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 112.714ms
+2024-04-27 21:01:01.795 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-04-27 21:01:02.005 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 210.3384ms
+2024-04-27 21:01:17.644 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/api/cats - null null
+2024-04-27 21:01:17.689 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'MeowBackend.API.Controllers.CatsController.GetCats (MeowBackend.API)'
+2024-04-27 21:01:17.731 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "GetCats", controller = "Cats"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[MeowBackend.Core.Dtos.CatDto]] GetCats() on controller MeowBackend.API.Controllers.CatsController (MeowBackend.API).
+2024-04-27 21:01:18.174 +03:00  INF [MeowBackend.API.Controllers.CatsController] получаем всех котов
+2024-04-27 21:01:18.185 +03:00  INF [MeowBackend.Business.Services.CatsService] зовем метод репрозитория (метот ОТЗОВИСЬ
+2024-04-27 21:01:21.369 +03:00  INF [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (85ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT c.id, c.can_meow, c.cat_name, c.cat_type, c.count, c.owner_id
+FROM cats AS c
+2024-04-27 21:01:21.403 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[MeowBackend.Core.Dtos.CatDto, MeowBackend.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-04-27 21:01:21.442 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action MeowBackend.API.Controllers.CatsController.GetCats (MeowBackend.API) in 3694.0474ms
+2024-04-27 21:01:21.448 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'MeowBackend.API.Controllers.CatsController.GetCats (MeowBackend.API)'
+2024-04-27 21:01:21.457 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP GET /api/cats responded 200 in 3777.2004 ms
+2024-04-27 21:01:21.489 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/api/cats - 200 null application/json; charset=utf-8 3845.2111ms
+2024-04-27 21:01:50.245 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/api/cats/3fa85f64-5717-4562-b3fc-2c963f66afa6 - null null
+2024-04-27 21:01:50.294 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'MeowBackend.API.Controllers.CatsController.GetCatById (MeowBackend.API)'
+2024-04-27 21:01:50.316 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "GetCatById", controller = "Cats"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[MeowBackend.Core.Dtos.CatDto] GetCatById(System.Guid) on controller MeowBackend.API.Controllers.CatsController (MeowBackend.API).
+2024-04-27 21:01:50.370 +03:00  INF [MeowBackend.DataLayer.Repositories.CatsRepository] идем в базу данных искать кота с id 3fa85f64-5717-4562-b3fc-2c963f66afa6
+2024-04-27 21:01:51.020 +03:00  INF [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (251ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT c.id, c.can_meow, c.cat_name, c.cat_type, c.count, c.owner_id
+FROM cats AS c
+WHERE c.id = @__id_0
+LIMIT 1
+2024-04-27 21:01:51.040 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'null'.
+2024-04-27 21:01:51.047 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action MeowBackend.API.Controllers.CatsController.GetCatById (MeowBackend.API) in 722.537ms
+2024-04-27 21:01:51.053 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'MeowBackend.API.Controllers.CatsController.GetCatById (MeowBackend.API)'
+2024-04-27 21:01:51.061 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP GET /api/cats/3fa85f64-5717-4562-b3fc-2c963f66afa6 responded 204 in 767.6449 ms
+2024-04-27 21:01:51.068 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/api/cats/3fa85f64-5717-4562-b3fc-2c963f66afa6 - 204 null null 823.0135ms
+2024-04-27 21:02:44.199 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats - application/json 69
+2024-04-27 21:02:44.227 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'MeowBackend.API.Controllers.CatsController.CreateCat (MeowBackend.API)'
+2024-04-27 21:02:44.241 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "CreateCat", controller = "Cats"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid] CreateCat(MeowBackend.API.Models.Requestes.CreateCatRequest) on controller MeowBackend.API.Controllers.CatsController (MeowBackend.API).
+2024-04-27 21:02:44.302 +03:00  INF [MeowBackend.API.Controllers.CatsController]  , 0
+2024-04-27 21:02:52.142 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action MeowBackend.API.Controllers.CatsController.CreateCat (MeowBackend.API) in 7888.7953ms
+2024-04-27 21:02:52.149 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'MeowBackend.API.Controllers.CatsController.CreateCat (MeowBackend.API)'
+2024-04-27 21:02:52.152 +03:00  ERR [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats responded 500 in 7927.6961 msSystem.ComponentModel.DataAnnotations.ValidationException: у вас кот назван неправильно
+   at MeowBackend.Business.Services.CatsService.AddCat(CatDto cat) in C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Business\Services\CatsService.cs:line 40
+   at MeowBackend.API.Controllers.CatsController.CreateCat(CreateCatRequest request) in C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\Controllers\CatsController.cs:line 61
+   at lambda_method12(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+
+2024-04-27 21:02:52.317 +03:00  ERR [MeowBackend.API.Configuration.ExceptionMiddleware] Ошибка валидации: у вас кот назван неправильно
+2024-04-27 21:02:52.328 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats - 422 null application/json 8137.7461ms
+2024-04-27 21:19:05.495 +03:00  INF [] Running app
+2024-04-27 21:19:05.966 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-04-27 21:19:05.976 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-04-27 21:19:05.982 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-04-27 21:19:05.986 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-04-27 21:19:05.989 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-04-27 21:19:09.664 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-04-27 21:19:10.425 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 777.6275ms
+2024-04-27 21:19:10.620 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-27 21:19:10.642 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-04-27 21:19:10.696 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 77.1159ms
+2024-04-27 21:19:10.866 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 224.1359ms
+2024-04-27 21:19:10.981 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-04-27 21:19:13.468 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 2488.3549ms
+2024-04-27 21:19:25.914 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats - application/json 74
+2024-04-27 21:19:25.939 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'MeowBackend.API.Controllers.CatsController.CreateCat (MeowBackend.API)'
+2024-04-27 21:19:25.978 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "CreateCat", controller = "Cats"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid] CreateCat(MeowBackend.API.Models.Requestes.CreateCatRequest) on controller MeowBackend.API.Controllers.CatsController (MeowBackend.API).
+2024-04-27 21:19:26.480 +03:00  INF [MeowBackend.API.Controllers.CatsController] string, 0
+2024-04-27 21:19:26.493 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'System.Guid'.
+2024-04-27 21:19:26.524 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action MeowBackend.API.Controllers.CatsController.CreateCat (MeowBackend.API) in 527.6411ms
+2024-04-27 21:19:26.534 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'MeowBackend.API.Controllers.CatsController.CreateCat (MeowBackend.API)'
+2024-04-27 21:19:26.541 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats responded 200 in 606.3140 ms
+2024-04-27 21:19:26.554 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats - 200 null application/json; charset=utf-8 640.0279ms
+2024-04-27 21:19:32.662 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats - application/json 74
+2024-04-27 21:19:32.691 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'MeowBackend.API.Controllers.CatsController.CreateCat (MeowBackend.API)'
+2024-04-27 21:19:32.705 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "CreateCat", controller = "Cats"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid] CreateCat(MeowBackend.API.Models.Requestes.CreateCatRequest) on controller MeowBackend.API.Controllers.CatsController (MeowBackend.API).
+2024-04-27 21:19:32.726 +03:00  INF [MeowBackend.API.Controllers.CatsController] string, 0
+2024-04-27 21:19:32.728 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'System.Guid'.
+2024-04-27 21:19:32.731 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action MeowBackend.API.Controllers.CatsController.CreateCat (MeowBackend.API) in 18.7186ms
+2024-04-27 21:19:32.734 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'MeowBackend.API.Controllers.CatsController.CreateCat (MeowBackend.API)'
+2024-04-27 21:19:32.738 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats responded 200 in 48.4338 ms
+2024-04-27 21:19:32.742 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats - 200 null application/json; charset=utf-8 80.5259ms
+2024-04-27 21:19:53.584 +03:00  INF [] Running app
+2024-04-27 21:19:54.160 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-04-27 21:19:54.176 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-04-27 21:19:54.187 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-04-27 21:19:54.200 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-04-27 21:19:54.205 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-04-27 21:19:55.442 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-04-27 21:19:55.927 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 491.7096ms
+2024-04-27 21:19:56.000 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-27 21:19:56.000 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-04-27 21:19:56.044 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 45.562ms
+2024-04-27 21:19:56.140 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 141.2446ms
+2024-04-27 21:19:56.272 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-04-27 21:19:56.581 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 309.3849ms
+2024-04-27 21:20:30.573 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats - application/json 76
+2024-04-27 21:20:30.606 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'MeowBackend.API.Controllers.CatsController.CreateCat (MeowBackend.API)'
+2024-04-27 21:20:30.658 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "CreateCat", controller = "Cats"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid] CreateCat(MeowBackend.API.Models.Requestes.CreateCatRequest) on controller MeowBackend.API.Controllers.CatsController (MeowBackend.API).
+2024-04-27 21:20:31.149 +03:00  INF [MeowBackend.API.Controllers.CatsController] string, 667
+2024-04-27 21:20:36.870 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action MeowBackend.API.Controllers.CatsController.CreateCat (MeowBackend.API) in 6191.0196ms
+2024-04-27 21:20:36.879 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'MeowBackend.API.Controllers.CatsController.CreateCat (MeowBackend.API)'
+2024-04-27 21:20:36.889 +03:00  ERR [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats responded 500 in 6287.9293 msMeowBackend.Core.Exceptions.ValidationException: коты указаны в неверном количеств! пересчитайте!
+   at MeowBackend.Business.Services.CatsService.AddCat(CatDto cat) in C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Business\Services\CatsService.cs:line 36
+   at MeowBackend.API.Controllers.CatsController.CreateCat(CreateCatRequest request) in C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\Controllers\CatsController.cs:line 61
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+
+2024-04-27 21:20:36.988 +03:00  ERR [MeowBackend.API.Configuration.ExceptionMiddleware] Something went wrong: MeowBackend.Core.Exceptions.ValidationException: коты указаны в неверном количеств! пересчитайте!
+   at MeowBackend.Business.Services.CatsService.AddCat(CatDto cat) in C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend.Business\Services\CatsService.cs:line 36
+   at MeowBackend.API.Controllers.CatsController.CreateCat(CreateCatRequest request) in C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\Controllers\CatsController.cs:line 61
+   at lambda_method2(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at MeowBackend.API.Configuration.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\Configuration\ExceptionMiddleware.cs:line 22
+2024-04-27 21:20:37.024 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats - 500 null application/json 6451.323ms
+2024-04-27 22:00:07.472 +03:00  INF [] Running app
+2024-04-27 22:00:07.825 +03:00  INF [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\dns\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-27 22:00:08.522 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-04-27 22:00:08.540 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-04-27 22:00:08.556 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-04-27 22:00:08.570 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-04-27 22:00:08.579 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-04-27 22:00:10.140 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-04-27 22:00:11.026 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 898.0379ms
+2024-04-27 22:00:11.167 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-27 22:00:11.169 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-04-27 22:00:11.212 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 48.4107ms
+2024-04-27 22:00:11.327 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 158.0766ms
+2024-04-27 22:00:11.441 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-04-27 22:00:11.788 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 348.6331ms
+2024-04-27 22:00:21.378 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/api/cats - null null
+2024-04-27 22:00:21.609 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-27 22:00:21.625 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-04-27 22:00:21.634 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP GET /api/cats responded 401 in 228.4590 ms
+2024-04-27 22:00:21.643 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/api/cats - 401 0 null 266.2436ms
+2024-04-27 22:16:57.520 +03:00  INF [] Running app
+2024-04-27 22:16:57.725 +03:00  INF [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\dns\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-27 22:16:58.246 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-04-27 22:16:58.252 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-04-27 22:16:58.255 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-04-27 22:16:58.256 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-04-27 22:16:58.257 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-04-27 22:17:02.944 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-04-27 22:17:03.560 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 628.5684ms
+2024-04-27 22:17:03.738 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-04-27 22:17:03.742 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-04-27 22:17:03.791 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 53.308ms
+2024-04-27 22:17:03.947 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 204.7231ms
+2024-04-27 22:17:04.091 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-04-27 22:17:04.400 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 309.3016ms
+2024-04-27 22:17:16.159 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats/login - application/json 119
+2024-04-27 22:17:16.349 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-27 22:17:16.362 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-04-27 22:17:16.372 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats/login responded 401 in 178.1213 ms
+2024-04-27 22:17:16.381 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats/login - 401 0 null 222.4048ms
+2024-04-27 22:17:25.463 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats/login - application/json 109
+2024-04-27 22:17:25.501 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-27 22:17:25.512 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-04-27 22:17:25.519 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats/login responded 401 in 24.9483 ms
+2024-04-27 22:17:25.526 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats/login - 401 0 null 63.0494ms
+2024-04-27 22:18:11.502 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats/login - application/json 109
+2024-04-27 22:18:11.539 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-27 22:18:11.552 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-04-27 22:18:11.562 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats/login responded 401 in 28.1952 ms
+2024-04-27 22:18:11.569 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats/login - 401 0 null 67.9879ms
+2024-04-27 22:18:40.451 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats/login - application/json 104
+2024-04-27 22:18:40.495 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-27 22:18:40.516 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-04-27 22:18:40.526 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats/login responded 401 in 31.6474 ms
+2024-04-27 22:18:40.541 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats/login - 401 0 null 89.8914ms
+2024-04-27 22:19:03.812 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats/login - application/json 104
+2024-04-27 22:19:03.842 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-04-27 22:19:03.866 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-04-27 22:19:03.878 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats/login responded 401 in 36.3921 ms
+2024-04-27 22:19:03.890 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats/login - 401 0 null 78.6357ms

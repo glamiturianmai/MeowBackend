@@ -7,6 +7,8 @@ namespace MeowBackend.DataLayer
         public DbSet<CatDto> Cats { get; set; }
         public DbSet<PersonDto> Persons { get; set; }
 
+        public DbSet<DogDto> Dogs { get; set; }
+
         public MeowDBContext(DbContextOptions<MeowDBContext> options) : base(options) 
         {
         }

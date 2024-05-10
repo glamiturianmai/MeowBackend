@@ -1,0 +1,14 @@
+2024-04-24 18:49:20.199 +03:00  INF [] Running app
+2024-04-24 18:49:21.047 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: "https://localhost:7106"
+2024-04-24 18:49:21.063 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: "http://localhost:5099"
+2024-04-24 18:49:21.075 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-04-24 18:49:21.080 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: "Development"
+2024-04-24 18:49:21.087 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: "C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend"
+2024-04-24 18:49:28.130 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/2" "GET" "https"://"localhost:7106""""/swagger/index.html""" - null null
+2024-04-24 18:49:30.374 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/2" "GET" "https"://"localhost:7106""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 2258.0989ms
+2024-04-24 18:49:30.405 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/2" "GET" "https"://"localhost:7106""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2024-04-24 18:49:30.405 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/2" "GET" "https"://"localhost:7106""""/_vs/browserLink""" - null null
+2024-04-24 18:49:30.509 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/2" "GET" "https"://"localhost:7106""""/_framework/aspnetcore-browser-refresh.js""" - 200 13766 "application/javascript; charset=utf-8" 104.1821ms
+2024-04-24 18:49:30.864 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/2" "GET" "https"://"localhost:7106""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 460.0744ms
+2024-04-24 18:49:31.337 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting "HTTP/2" "GET" "https"://"localhost:7106""""/swagger/v1/swagger.json""" - null null
+2024-04-24 18:49:31.997 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished "HTTP/2" "GET" "https"://"localhost:7106""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 830.223ms

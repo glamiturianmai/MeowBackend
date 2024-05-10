@@ -51,9 +51,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "EFCore.NamingConventions": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -164,9 +172,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "EFCore.NamingConventions": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -281,9 +297,17 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "EFCore.NamingConventions": {
               "target": "Package",
               "version": "[8.0.3, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.1, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",

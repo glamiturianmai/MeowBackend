@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v8.0": {
       "MeowBackend.DataLayer/1.0.0": {
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "EFCore.NamingConventions": "8.0.3",
+          "FluentValidation": "11.9.1",
           "MeowBackend.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Microsoft.EntityFrameworkCore.Design": "8.0.4",
@@ -24,6 +26,17 @@
         },
         "runtime": {
           "MeowBackend.DataLayer.dll": {}
+        }
+      },
+      "AutoMapper/13.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.0"
+          }
         }
       },
       "EFCore.NamingConventions/8.0.3": {
@@ -49,6 +62,14 @@
           "lib/netstandard2.1/Elasticsearch.Net.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.17.5.0"
+          }
+        }
+      },
+      "FluentValidation/11.9.1": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.9.1.0"
           }
         }
       },
@@ -711,7 +732,9 @@
       "System.Threading.Channels/8.0.0": {},
       "MeowBackend.Core/1.0.0": {
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "EFCore.NamingConventions": "8.0.3",
+          "FluentValidation": "11.9.1",
           "Microsoft.EntityFrameworkCore": "8.0.4",
           "Npgsql": "8.0.2",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2",
@@ -734,6 +757,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoMapper/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "path": "automapper/13.0.1",
+      "hashPath": "automapper.13.0.1.nupkg.sha512"
+    },
     "EFCore.NamingConventions/8.0.3": {
       "type": "package",
       "serviceable": true,
@@ -747,6 +777,13 @@
       "sha512": "sha512-orChsQi1Ceho/NyIylNOn6y4vuGcsbCfMZnCueNN0fzqYEGQmQdPfcVmsR5+3fwpXTgxCdjTUVmqOwvHpCSB+Q==",
       "path": "elasticsearch.net/7.17.5",
       "hashPath": "elasticsearch.net.7.17.5.nupkg.sha512"
+    },
+    "FluentValidation/11.9.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C+PqISSMdlOZZJx0Hx25atW32tv4vbpsaiQB+PLjK+ZGLzOFuHl1fUJ3Lny77mIZ31ZtYtNG0JgUjxa3wwLsWg==",
+      "path": "fluentvalidation/11.9.1",
+      "hashPath": "fluentvalidation.11.9.1.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",

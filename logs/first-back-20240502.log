@@ -1,0 +1,184 @@
+2024-05-02 15:02:33.207 +03:00  INF [] Running app
+2024-05-02 15:02:33.713 +03:00  INF [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\dns\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-02 15:02:35.022 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-05-02 15:02:35.028 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-05-02 15:02:35.036 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-05-02 15:02:35.042 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-05-02 15:02:35.047 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-05-02 15:02:38.027 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger - null null
+2024-05-02 15:02:38.543 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger - 301 0 null 535.596ms
+2024-05-02 15:02:38.568 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-05-02 15:02:38.788 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 220.6714ms
+2024-05-02 15:02:38.828 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/swagger-ui.css - null null
+2024-05-02 15:02:38.830 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/swagger-ui-standalone-preset.js - null null
+2024-05-02 15:02:38.830 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/swagger-ui-bundle.js - null null
+2024-05-02 15:02:38.916 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-05-02 15:02:38.921 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-02 15:02:38.961 +03:00  INF [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-02 15:02:38.964 +03:00  INF [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-02 15:02:38.995 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 166.1882ms
+2024-05-02 15:02:39.037 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 118.3172ms
+2024-05-02 15:02:39.040 +03:00  INF [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-02 15:02:39.075 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 246.3867ms
+2024-05-02 15:02:39.091 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/swagger-ui.css - 200 143943 text/css 262.9571ms
+2024-05-02 15:02:39.144 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 228.3072ms
+2024-05-02 15:02:39.409 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-05-02 15:02:39.462 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/favicon-32x32.png - null null
+2024-05-02 15:02:39.516 +03:00  INF [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2024-05-02 15:02:39.528 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/favicon-32x32.png - 200 628 image/png 66.9459ms
+2024-05-02 15:02:39.742 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 334.2546ms
+2024-05-02 15:03:06.246 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/api/cats/3fa85f64-5717-4562-b3fc-2c963f66afa6 - null null
+2024-05-02 15:03:06.510 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-02 15:03:06.525 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-05-02 15:03:06.536 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP GET /api/cats/3fa85f64-5717-4562-b3fc-2c963f66afa6 responded 401 in 258.3968 ms
+2024-05-02 15:03:06.546 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/api/cats/3fa85f64-5717-4562-b3fc-2c963f66afa6 - 401 0 null 300.9546ms
+2024-05-02 15:03:26.199 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats/login - application/json 119
+2024-05-02 15:03:26.220 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-02 15:03:26.227 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-05-02 15:03:26.235 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats/login responded 401 in 20.8586 ms
+2024-05-02 15:03:26.245 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats/login - 401 0 null 46.3454ms
+2024-05-02 15:03:27.796 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats/login - application/json 119
+2024-05-02 15:03:27.828 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-02 15:03:27.838 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-05-02 15:03:27.846 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats/login responded 401 in 21.6283 ms
+2024-05-02 15:03:27.853 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats/login - 401 0 null 57.2069ms
+2024-05-02 15:04:21.709 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats - application/json 109
+2024-05-02 15:04:21.730 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-02 15:04:21.738 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-05-02 15:04:21.744 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats responded 401 in 15.1442 ms
+2024-05-02 15:04:21.754 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats - 401 0 null 45.4215ms
+2024-05-02 15:04:26.318 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats - application/json 109
+2024-05-02 15:04:26.359 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-02 15:04:26.382 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-05-02 15:04:26.400 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats responded 401 in 41.3513 ms
+2024-05-02 15:04:26.414 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats - 401 0 null 96.4036ms
+2024-05-02 15:08:20.203 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-05-02 15:08:20.276 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 75.3507ms
+2024-05-02 15:08:20.323 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-02 15:08:20.323 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-05-02 15:08:20.349 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 26.3249ms
+2024-05-02 15:08:20.413 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 90.3919ms
+2024-05-02 15:08:20.610 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-05-02 15:08:20.671 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 60.9458ms
+2024-05-02 15:09:20.857 +03:00  INF [] Running app
+2024-05-02 15:09:21.072 +03:00  INF [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\dns\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-02 15:09:21.728 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-05-02 15:09:21.732 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-05-02 15:09:21.740 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-05-02 15:09:21.744 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-05-02 15:09:21.749 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-05-02 15:09:24.145 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-05-02 15:09:24.774 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 649.6389ms
+2024-05-02 15:09:24.871 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-02 15:09:24.871 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-05-02 15:09:24.926 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 55.1681ms
+2024-05-02 15:09:25.064 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 193.6447ms
+2024-05-02 15:09:25.273 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-05-02 15:09:25.557 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 285.2774ms
+2024-05-02 15:09:47.391 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats/logincat - application/json 119
+2024-05-02 15:09:47.598 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-02 15:09:47.613 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-05-02 15:09:47.626 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats/logincat responded 401 in 207.9728 ms
+2024-05-02 15:09:47.641 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats/logincat - 401 0 null 250.3918ms
+2024-05-02 15:09:53.441 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats/logincat - application/json 119
+2024-05-02 15:09:53.496 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-02 15:09:53.503 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-05-02 15:09:53.508 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats/logincat responded 401 in 23.6907 ms
+2024-05-02 15:09:53.513 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats/logincat - 401 0 null 72.7483ms
+2024-05-02 15:11:29.307 +03:00  INF [] Running app
+2024-05-02 15:11:29.545 +03:00  INF [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\dns\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-02 15:11:30.171 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-05-02 15:11:30.176 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-05-02 15:11:30.183 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-05-02 15:11:30.186 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-05-02 15:11:30.190 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-05-02 15:11:33.296 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-05-02 15:11:34.024 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 743.0539ms
+2024-05-02 15:11:34.177 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-02 15:11:34.250 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 73.4702ms
+2024-05-02 15:11:34.298 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-05-02 15:11:34.485 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 188.8526ms
+2024-05-02 15:11:34.596 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-05-02 15:11:34.954 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 358.6323ms
+2024-05-02 15:11:51.465 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats/logincat - application/json 119
+2024-05-02 15:11:51.716 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-02 15:11:51.731 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-05-02 15:11:51.741 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats/logincat responded 401 in 233.3792 ms
+2024-05-02 15:11:51.754 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats/logincat - 401 0 null 293.7435ms
+2024-05-02 15:12:36.742 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats/logincat - application/json 119
+2024-05-02 15:12:36.775 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-02 15:12:36.782 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-05-02 15:12:36.787 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats/logincat responded 401 in 18.1098 ms
+2024-05-02 15:12:36.796 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats/logincat - 401 0 null 55.0977ms
+2024-05-02 15:14:33.139 +03:00  INF [] Running app
+2024-05-02 15:14:33.368 +03:00  INF [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\dns\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-02 15:14:33.915 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-05-02 15:14:33.919 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-05-02 15:14:33.928 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-05-02 15:14:33.932 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-05-02 15:14:33.936 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-05-02 15:14:36.375 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-05-02 15:14:36.956 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 593.4502ms
+2024-05-02 15:14:36.994 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-02 15:14:37.059 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 64.5915ms
+2024-05-02 15:14:37.086 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-05-02 15:14:37.257 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 171.0775ms
+2024-05-02 15:14:37.359 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-05-02 15:14:37.725 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 366.6113ms
+2024-05-02 15:14:45.885 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats/logincat - application/json 119
+2024-05-02 15:14:46.251 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-02 15:14:46.267 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-05-02 15:14:46.278 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats/logincat responded 401 in 353.1864 ms
+2024-05-02 15:14:46.288 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats/logincat - 401 0 null 403.8919ms
+2024-05-02 15:18:09.909 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats/logincat - application/json 115
+2024-05-02 15:18:10.017 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-02 15:18:10.030 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-05-02 15:18:10.039 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats/logincat responded 401 in 73.6404 ms
+2024-05-02 15:18:10.060 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats/logincat - 401 0 null 163.518ms
+2024-05-02 15:19:00.699 +03:00  INF [] Running app
+2024-05-02 15:19:00.860 +03:00  INF [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\dns\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-02 15:19:01.226 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-05-02 15:19:01.231 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-05-02 15:19:01.235 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-05-02 15:19:01.239 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-05-02 15:19:01.242 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-05-02 15:19:03.599 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-05-02 15:19:04.176 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 583.052ms
+2024-05-02 15:19:04.273 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-02 15:19:04.275 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-05-02 15:19:04.379 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 106.7997ms
+2024-05-02 15:19:04.500 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 225.3355ms
+2024-05-02 15:19:04.600 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-05-02 15:19:04.965 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 366.3257ms
+2024-05-02 15:19:25.389 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/cats/logincat - application/json 115
+2024-05-02 15:19:25.591 +03:00  INF [Microsoft.AspNetCore.Authorization.DefaultAuthorizationService] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-05-02 15:19:25.605 +03:00  INF [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] AuthenticationScheme: Bearer was challenged.
+2024-05-02 15:19:25.619 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/cats/logincat responded 401 in 189.3281 ms
+2024-05-02 15:19:25.636 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/cats/logincat - 401 0 null 247.7179ms
+2024-05-02 15:26:15.431 +03:00  INF [] Running app
+2024-05-02 15:26:15.793 +03:00  INF [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\dns\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-02 15:26:16.251 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-05-02 15:26:16.253 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-05-02 15:26:16.257 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-05-02 15:26:16.260 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-05-02 15:26:16.262 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-05-02 15:26:18.260 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-05-02 15:26:18.986 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 738.0946ms
+2024-05-02 15:26:19.021 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-02 15:26:19.049 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 28.4238ms
+2024-05-02 15:26:19.075 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-05-02 15:26:19.216 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 142.0714ms
+2024-05-02 15:26:19.286 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-05-02 15:26:19.599 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 313.5828ms

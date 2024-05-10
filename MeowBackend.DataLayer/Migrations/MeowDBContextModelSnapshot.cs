@@ -42,11 +42,7 @@ namespace MeowBackend.DataLayer.Migrations
                         .HasColumnType("integer")
                         .HasColumnName("cat_type");
 
-                    b.Property<int>("Count")
-                        .HasColumnType("integer")
-                        .HasColumnName("count");
-
-                    b.Property<Guid>("OwnerId")
+                    b.Property<Guid?>("OwnerId")
                         .HasColumnType("uuid")
                         .HasColumnName("owner_id");
 
@@ -57,6 +53,38 @@ namespace MeowBackend.DataLayer.Migrations
                         .HasDatabaseName("ix_cats_owner_id");
 
                     b.ToTable("cats", (string)null);
+                });
+
+            modelBuilder.Entity("MeowBackend.Core.Dtos.DogDto", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid")
+                        .HasColumnName("id");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("integer")
+                        .HasColumnName("count");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("name");
+
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("password_hash");
+
+                    b.Property<string>("PasswordSalt")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("password_salt");
+
+                    b.HasKey("Id")
+                        .HasName("pk_dogs");
+
+                    b.ToTable("dogs", (string)null);
                 });
 
             modelBuilder.Entity("MeowBackend.Core.Dtos.PersonDto", b =>
@@ -70,10 +98,25 @@ namespace MeowBackend.DataLayer.Migrations
                         .HasColumnType("boolean")
                         .HasColumnName("can_have_cat");
 
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("email");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("name");
+
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("password_hash");
+
+                    b.Property<string>("PasswordSalt")
+                        .IsRequired()
+                        .HasColumnType("text")
+                        .HasColumnName("password_salt");
 
                     b.HasKey("Id")
                         .HasName("pk_persons");
@@ -86,8 +129,6 @@ namespace MeowBackend.DataLayer.Migrations
                     b.HasOne("MeowBackend.Core.Dtos.PersonDto", "Owner")
                         .WithMany("Cats")
                         .HasForeignKey("OwnerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired()
                         .HasConstraintName("fk_cats_persons_owner_id");
 
                     b.Navigation("Owner");

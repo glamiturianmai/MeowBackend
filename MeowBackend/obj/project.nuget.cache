@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "pJ2XnkYIAeCKWdBvSdlplQb/rHOm81xtMzaQfvKWR48Jq845J3jYuWxASx/xMZBs0+E2Q/rmgvlJ7QVpEi9B+g==",
+  "dgSpecHash": "JKDoXwmCd8VQqwOeJ8Wvxdu00sAn3dunSBNs536MKidOtJKsou+Pc9Zs3UZIEPK25Pzn8Z4ZmlT8T7o+pA/h2Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\dns\\Desktop\\MiraculousBackend\\MeowBackend\\MeowBackend\\MeowBackend.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dns\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\dns\\.nuget\\packages\\efcore.namingconventions\\8.0.3\\efcore.namingconventions.8.0.3.nupkg.sha512",
     "C:\\Users\\dns\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
+    "C:\\Users\\dns\\.nuget\\packages\\fluentvalidation\\11.9.1\\fluentvalidation.11.9.1.nupkg.sha512",
     "C:\\Users\\dns\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\dns\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.4\\microsoft.aspnetcore.authentication.jwtbearer.8.0.4.nupkg.sha512",
     "C:\\Users\\dns\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\dns\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "C:\\Users\\dns\\.nuget\\packages\\microsoft.codeanalysis.common\\4.5.0\\microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
@@ -35,6 +38,12 @@
     "C:\\Users\\dns\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\dns\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
     "C:\\Users\\dns\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\dns\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.1.2\\microsoft.identitymodel.abstractions.7.1.2.nupkg.sha512",
+    "C:\\Users\\dns\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.1.2\\microsoft.identitymodel.jsonwebtokens.7.1.2.nupkg.sha512",
+    "C:\\Users\\dns\\.nuget\\packages\\microsoft.identitymodel.logging\\7.1.2\\microsoft.identitymodel.logging.7.1.2.nupkg.sha512",
+    "C:\\Users\\dns\\.nuget\\packages\\microsoft.identitymodel.protocols\\7.1.2\\microsoft.identitymodel.protocols.7.1.2.nupkg.sha512",
+    "C:\\Users\\dns\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\7.1.2\\microsoft.identitymodel.protocols.openidconnect.7.1.2.nupkg.sha512",
+    "C:\\Users\\dns\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.1.2\\microsoft.identitymodel.tokens.7.1.2.nupkg.sha512",
     "C:\\Users\\dns\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\dns\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\dns\\.nuget\\packages\\npgsql\\8.0.2\\npgsql.8.0.2.nupkg.sha512",
@@ -65,6 +74,7 @@
     "C:\\Users\\dns\\.nuget\\packages\\system.composition.runtime\\6.0.0\\system.composition.runtime.6.0.0.nupkg.sha512",
     "C:\\Users\\dns\\.nuget\\packages\\system.composition.typedparts\\6.0.0\\system.composition.typedparts.6.0.0.nupkg.sha512",
     "C:\\Users\\dns\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.0\\system.diagnostics.diagnosticsource.8.0.0.nupkg.sha512",
+    "C:\\Users\\dns\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.1.2\\system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512",
     "C:\\Users\\dns\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\dns\\.nuget\\packages\\system.reflection.metadata\\6.0.1\\system.reflection.metadata.6.0.1.nupkg.sha512",
     "C:\\Users\\dns\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
@@ -73,5 +83,16 @@
     "C:\\Users\\dns\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\dns\\.nuget\\packages\\system.threading.channels\\8.0.0\\system.threading.channels.8.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Npgsql' 8.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-x9vc-6hfv-hg8c",
+      "libraryId": "Npgsql",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

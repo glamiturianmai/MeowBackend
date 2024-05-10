@@ -1,0 +1,181 @@
+2024-05-07 22:48:33.636 +03:00  INF [] Running app
+2024-05-07 22:48:34.105 +03:00  INF [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\dns\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-07 22:48:35.058 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-05-07 22:48:35.061 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-05-07 22:48:35.068 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-05-07 22:48:35.071 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-05-07 22:48:35.073 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-05-07 22:48:37.027 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger - null null
+2024-05-07 22:48:37.502 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger - 301 0 null 488.0213ms
+2024-05-07 22:48:37.518 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-05-07 22:48:37.645 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 127.9936ms
+2024-05-07 22:48:37.690 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/swagger-ui.css - null null
+2024-05-07 22:48:37.691 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/swagger-ui-bundle.js - null null
+2024-05-07 22:48:37.691 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/swagger-ui-standalone-preset.js - null null
+2024-05-07 22:48:37.781 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-05-07 22:48:37.828 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-07 22:48:37.875 +03:00  INF [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2024-05-07 22:48:37.875 +03:00  INF [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2024-05-07 22:48:37.938 +03:00  INF [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2024-05-07 22:48:37.946 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 255.4377ms
+2024-05-07 22:48:37.947 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/swagger-ui.css - 200 143943 text/css 257.5699ms
+2024-05-07 22:48:37.954 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 130.6188ms
+2024-05-07 22:48:37.961 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 270.9577ms
+2024-05-07 22:48:38.021 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 240.6106ms
+2024-05-07 22:48:38.312 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-05-07 22:48:38.537 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 225.2788ms
+2024-05-07 22:49:07.705 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/persons - application/json 43
+2024-05-07 22:49:07.919 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'MeowBackend.Controllers.Persons.CreatePerson (MeowBackend.API)'
+2024-05-07 22:49:07.958 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "CreatePerson", controller = "Persons"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid] CreatePerson(MeowBackend.Core.Models.Requestes.CreatePersonRequest) on controller MeowBackend.Controllers.Persons (MeowBackend.API).
+2024-05-07 22:49:09.333 +03:00  INF [MeowBackend.API.Controllers.CatsController] добавляем человека: maria
+2024-05-07 22:50:16.404 +03:00  INF [] Running app
+2024-05-07 22:50:16.630 +03:00  INF [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\dns\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-07 22:50:17.103 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-05-07 22:50:17.106 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-05-07 22:50:17.109 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-05-07 22:50:17.112 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-05-07 22:50:17.116 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-05-07 22:50:22.229 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-05-07 22:50:22.648 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 429.6117ms
+2024-05-07 22:50:22.663 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-07 22:50:22.688 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 25.4054ms
+2024-05-07 22:50:22.726 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-05-07 22:50:22.867 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 141.6927ms
+2024-05-07 22:50:23.194 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-05-07 22:50:23.455 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 262.1714ms
+2024-05-07 22:50:36.306 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/persons - application/json 40
+2024-05-07 22:50:36.470 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'MeowBackend.Controllers.Persons.CreatePerson (MeowBackend.API)'
+2024-05-07 22:50:36.514 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "CreatePerson", controller = "Persons"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid] CreatePerson(MeowBackend.Core.Models.Requestes.CreatePersonRequest) on controller MeowBackend.Controllers.Persons (MeowBackend.API).
+2024-05-07 22:50:37.063 +03:00  INF [MeowBackend.API.Controllers.CatsController] добавляем человека: aa
+2024-05-07 22:50:39.785 +03:00  INF [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (186ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Boolean), @p2='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO persons (id, can_have_cat, name)
+VALUES (@p0, @p1, @p2);
+2024-05-07 22:50:39.831 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'System.Guid'.
+2024-05-07 22:50:39.846 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action MeowBackend.Controllers.Persons.CreatePerson (MeowBackend.API) in 3317.5223ms
+2024-05-07 22:50:39.850 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'MeowBackend.Controllers.Persons.CreatePerson (MeowBackend.API)'
+2024-05-07 22:50:39.855 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/persons responded 200 in 3526.6809 ms
+2024-05-07 22:50:39.886 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/persons - 200 null application/json; charset=utf-8 3580.1419ms
+2024-05-07 22:54:27.412 +03:00  FTL [] The host was aborted.
+2024-05-07 22:54:49.867 +03:00  FTL [] The host was aborted.
+2024-05-07 23:00:37.740 +03:00  INF [] Running app
+2024-05-07 23:00:37.936 +03:00  INF [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\dns\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-07 23:00:38.419 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-05-07 23:00:38.422 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-05-07 23:00:38.425 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-05-07 23:00:38.427 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-05-07 23:00:38.428 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-05-07 23:00:43.597 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-05-07 23:00:44.486 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 904.7449ms
+2024-05-07 23:00:44.930 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-07 23:00:44.930 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-05-07 23:00:45.042 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 112.0907ms
+2024-05-07 23:00:45.567 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 637.7068ms
+2024-05-07 23:00:46.146 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-05-07 23:00:46.552 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 405.7661ms
+2024-05-07 23:01:01.984 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/persons - application/json 67
+2024-05-07 23:01:02.182 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'MeowBackend.Controllers.Persons.CreatePerson (MeowBackend.API)'
+2024-05-07 23:01:02.233 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "CreatePerson", controller = "Persons"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid] CreatePerson(MeowBackend.Core.Models.Requestes.CreatePersonRequest) on controller MeowBackend.Controllers.Persons (MeowBackend.API).
+2024-05-07 23:01:02.989 +03:00  INF [MeowBackend.API.Controllers.CatsController] добавляем человека: alice
+2024-05-07 23:01:05.515 +03:00  ERR [Microsoft.EntityFrameworkCore.Database.Command] Failed executing DbCommand (150ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Boolean), @p2='?', @p3='?', @p4='?', @p5='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO persons (id, can_have_cat, email, name, password_hash, password_salt)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-05-07 23:01:05.913 +03:00  ERR [Microsoft.EntityFrameworkCore.Update] An exception occurred in the database while saving changes for context type 'MeowBackend.DataLayer.MeowDBContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "email" of relation "persons" violates not-null constraint
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "email" of relation "persons" violates not-null constraint
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: persons
+    ColumnName: email
+    File: execmain.c
+    Line: 1974
+    Routine: ExecConstraints
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Npgsql.PostgresException (0x80004005): 23502: null value in column "email" of relation "persons" violates not-null constraint
+
+DETAIL: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+  Exception data:
+    Severity: ERROR
+    SqlState: 23502
+    MessageText: null value in column "email" of relation "persons" violates not-null constraint
+    Detail: Detail redacted as it may contain sensitive data. Specify 'Include Error Detail' in the connection string to include this information.
+    SchemaName: public
+    TableName: persons
+    ColumnName: email
+    File: execmain.c
+    Line: 1974
+    Routine: ExecConstraints
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<>c.<SaveChanges>b__112_0(DbContext _, ValueTuple`2 t)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+
+2024-05-07 23:02:00.795 +03:00  INF [] Running app
+2024-05-07 23:02:00.984 +03:00  INF [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\dns\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-07 23:02:01.466 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-05-07 23:02:01.471 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-05-07 23:02:01.475 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-05-07 23:02:01.476 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-05-07 23:02:01.479 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-05-07 23:02:06.884 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-05-07 23:02:07.365 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 497.0086ms
+2024-05-07 23:02:07.439 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-05-07 23:02:07.439 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-07 23:02:07.477 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 38.2257ms
+2024-05-07 23:02:07.557 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 118.5652ms
+2024-05-07 23:02:07.664 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-05-07 23:02:07.928 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 264.3556ms
+2024-05-07 23:03:40.353 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/persons - application/json 87
+2024-05-07 23:03:40.477 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'MeowBackend.Controllers.Persons.CreatePerson (MeowBackend.API)'
+2024-05-07 23:03:40.512 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "CreatePerson", controller = "Persons"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid] CreatePerson(MeowBackend.Core.Models.Requestes.CreatePersonRequest) on controller MeowBackend.Controllers.Persons (MeowBackend.API).
+2024-05-07 23:03:40.926 +03:00  INF [MeowBackend.API.Controllers.CatsController] добавляем человека: alice
+2024-05-07 23:03:42.959 +03:00  INF [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (95ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Boolean), @p2='?', @p3='?', @p4='?', @p5='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO persons (id, can_have_cat, email, name, password_hash, password_salt)
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2024-05-07 23:03:43.003 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'System.Guid'.
+2024-05-07 23:03:43.021 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action MeowBackend.Controllers.Persons.CreatePerson (MeowBackend.API) in 2494.5585ms
+2024-05-07 23:03:43.024 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'MeowBackend.Controllers.Persons.CreatePerson (MeowBackend.API)'
+2024-05-07 23:03:43.030 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/persons responded 200 in 2652.1106 ms
+2024-05-07 23:03:43.053 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/persons - 200 null application/json; charset=utf-8 2699.9139ms

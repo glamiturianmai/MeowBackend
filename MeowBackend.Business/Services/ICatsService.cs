@@ -1,13 +1,17 @@
 ﻿using MeowBackend.Core.Dtos;
+using MeowBackend.Core.Models.Requestes;
+using MeowBackend.Core.Models.Responses;
 
 
 namespace MeowBackend.Business.Services;
 
 public interface ICatsService
 {
-    List<CatDto> GetCats();
+    public List<CatResponse> GetCats();
 
-    public CatDto GetCatById(Guid id);
+    public CatResponse GetCatById(Guid id);
 
-    public CatDto GetCatByPersonId(Guid personId);
+    public Guid CreateCatForPerson(CreateCatRequest request, Guid personId);
+
+
 }

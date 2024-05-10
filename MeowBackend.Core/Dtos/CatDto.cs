@@ -5,11 +5,10 @@ public class CatDto : IdContainer
 {
     public string CatName { get; set; }
 
-    public int Count { get; set; }
-
     public CatType CatType { get; set; }
 
     public bool CanMeow { get; set; }
 
     public PersonDto Owner { get; set; }
+
 }

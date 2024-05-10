@@ -1,15 +1,17 @@
-﻿using System.Net;
+﻿using Serilog;
+using System.ComponentModel.DataAnnotations;
+using System.Net;
 
 namespace MeowBackend.API.Configuration;
 
 public class ExceptionMiddleware
 {
     private readonly RequestDelegate _next;
-    private readonly Serilog.ILogger _logger;
+    private readonly Serilog.ILogger _logger = Log.ForContext<ExceptionMiddleware>(); //в каком именно классе ошибка 
 
-    public ExceptionMiddleware(RequestDelegate next, Serilog.ILogger logger)
+    public ExceptionMiddleware(RequestDelegate next)
     {
-        _logger = logger;
+        
         _next = next;
     }
 
@@ -18,6 +20,11 @@ public class ExceptionMiddleware
         try
         {
             await _next(httpContext);
+        }
+        catch (ValidationException ex)
+        {
+            _logger.Error($"Ошибка валидации: {ex.Message}");
+            await HandleValidationExceptionAsync(httpContext, ex);
         }
         catch (Exception ex)
         {
@@ -30,6 +37,18 @@ public class ExceptionMiddleware
     {
         context.Response.ContentType = "application/json";
         context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+
+        await context.Response.WriteAsync(new ErrorDetails()
+        {
+            StatusCode = context.Response.StatusCode,
+            Message = exception.Message
+        }.ToString());
+    }
+
+    private async Task HandleValidationExceptionAsync(HttpContext context, ValidationException exception)
+    {
+        context.Response.ContentType = "application/json";
+        context.Response.StatusCode = (int)HttpStatusCode.UnprocessableEntity;
 
         await context.Response.WriteAsync(new ErrorDetails()
         {

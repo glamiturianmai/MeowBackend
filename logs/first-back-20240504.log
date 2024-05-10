@@ -1,0 +1,109 @@
+2024-05-04 13:23:51.302 +03:00  FTL [] Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MeowBackend.Business.Services.ICatsService Lifetime: Scoped ImplementationType: MeowBackend.Business.Services.CatsService': Unable to resolve service for type 'AutoMapper.IMapper' while attempting to activate 'MeowBackend.Business.Services.CatsService'.)
+2024-05-04 13:24:30.487 +03:00  FTL [] Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MeowBackend.Business.Services.ICatsService Lifetime: Scoped ImplementationType: MeowBackend.Business.Services.CatsService': Unable to resolve service for type 'AutoMapper.IMapper' while attempting to activate 'MeowBackend.Business.Services.CatsService'.)
+2024-05-04 13:25:23.700 +03:00  FTL [] Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MeowBackend.Business.Services.ICatsService Lifetime: Scoped ImplementationType: MeowBackend.Business.Services.CatsService': Unable to resolve service for type 'AutoMapper.IMapper' while attempting to activate 'MeowBackend.Business.Services.CatsService'.)
+2024-05-04 13:27:14.720 +03:00  FTL [] Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MeowBackend.Business.Services.ICatsService Lifetime: Scoped ImplementationType: MeowBackend.Business.Services.CatsService': Unable to resolve service for type 'AutoMapper.IMapper' while attempting to activate 'MeowBackend.Business.Services.CatsService'.)
+2024-05-04 13:29:12.398 +03:00  INF [] Running app
+2024-05-04 13:29:14.283 +03:00  INF [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\dns\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-04 13:29:16.135 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-05-04 13:29:16.139 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-05-04 13:29:16.145 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-05-04 13:29:16.161 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-05-04 13:29:16.217 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-05-04 13:29:20.306 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-05-04 13:29:21.092 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 795.8807ms
+2024-05-04 13:29:21.154 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-04 13:29:21.167 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-05-04 13:29:21.189 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 35.5851ms
+2024-05-04 13:29:21.345 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 178.8747ms
+2024-05-04 13:29:21.479 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-05-04 13:29:21.712 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 234.2021ms
+2024-05-04 13:30:03.535 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/api/persons/newperson - application/json 340
+2024-05-04 13:30:03.831 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'MeowBackend.Controllers.Persons.CreatePerson (MeowBackend.API)'
+2024-05-04 13:30:03.878 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "CreatePerson", controller = "Persons"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid] CreatePerson(MeowBackend.Core.Dtos.PersonDto) on controller MeowBackend.Controllers.Persons (MeowBackend.API).
+2024-05-04 13:30:05.538 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2024-05-04 13:30:05.571 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action MeowBackend.Controllers.Persons.CreatePerson (MeowBackend.API) in 1678.7805ms
+2024-05-04 13:30:05.577 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'MeowBackend.Controllers.Persons.CreatePerson (MeowBackend.API)'
+2024-05-04 13:30:05.585 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /api/persons/newperson responded 400 in 1995.2024 ms
+2024-05-04 13:30:05.603 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/api/persons/newperson - 400 null application/problem+json; charset=utf-8 2068.8008ms
+2024-05-04 13:35:26.308 +03:00  FTL [] The host was aborted.
+2024-05-04 13:35:50.119 +03:00  FTL [] The host was aborted.
+2024-05-04 13:48:20.462 +03:00  INF [] Running app
+2024-05-04 13:48:20.891 +03:00  INF [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\dns\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-04 13:48:21.881 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-05-04 13:48:21.883 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-05-04 13:48:21.893 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-05-04 13:48:21.895 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-05-04 13:48:21.898 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-05-04 13:48:23.015 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-05-04 13:48:23.496 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 491.5187ms
+2024-05-04 13:48:23.658 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-04 13:48:23.658 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-05-04 13:48:23.681 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 22.1388ms
+2024-05-04 13:48:23.910 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 252.5048ms
+2024-05-04 13:48:23.997 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-05-04 13:48:24.212 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 215.4987ms
+2024-05-04 13:48:44.485 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/meow/newDOG - application/json 84
+2024-05-04 13:48:44.655 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'MeowBackend.Controllers.Dogsontroller.CreateDog (MeowBackend.API)'
+2024-05-04 13:48:44.700 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "CreateDog", controller = "Dogsontroller"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid] CreateDog(MeowBackend.Core.Dtos.DogDto) on controller MeowBackend.Controllers.Dogsontroller (MeowBackend.API).
+2024-05-04 13:48:44.723 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action MeowBackend.Controllers.Dogsontroller.CreateDog (MeowBackend.API) in 5.2522ms
+2024-05-04 13:48:44.730 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'MeowBackend.Controllers.Dogsontroller.CreateDog (MeowBackend.API)'
+2024-05-04 13:48:44.738 +03:00  ERR [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /meow/newDOG responded 500 in 234.4280 msSystem.InvalidOperationException: Unable to resolve service for type 'MeowBackend.Business.Services.IDogsService' while attempting to activate 'MeowBackend.Controllers.Dogsontroller'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+
+2024-05-04 13:48:44.893 +03:00  ERR [MeowBackend.API.Configuration.ExceptionMiddleware] Something went wrong: System.InvalidOperationException: Unable to resolve service for type 'MeowBackend.Business.Services.IDogsService' while attempting to activate 'MeowBackend.Controllers.Dogsontroller'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at MeowBackend.API.Configuration.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\Configuration\ExceptionMiddleware.cs:line 22
+2024-05-04 13:48:44.906 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/meow/newDOG - 500 null application/json 421.4165ms
+2024-05-04 13:51:08.630 +03:00  INF [] Running app
+2024-05-04 13:51:08.838 +03:00  INF [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\dns\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-05-04 13:51:09.392 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7106
+2024-05-04 13:51:09.395 +03:00  INF [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5099
+2024-05-04 13:51:09.402 +03:00  INF [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+2024-05-04 13:51:09.405 +03:00  INF [Microsoft.Hosting.Lifetime] Hosting environment: Development
+2024-05-04 13:51:09.408 +03:00  INF [Microsoft.Hosting.Lifetime] Content root path: C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend
+2024-05-04 13:51:11.615 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/index.html - null null
+2024-05-04 13:51:12.530 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/index.html - 200 null text/html;charset=utf-8 925.2488ms
+2024-05-04 13:51:12.654 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - null null
+2024-05-04 13:51:12.689 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript; charset=utf-8 35.0728ms
+2024-05-04 13:51:12.738 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/_vs/browserLink - null null
+2024-05-04 13:51:12.953 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/_vs/browserLink - 200 null text/javascript; charset=UTF-8 214.8619ms
+2024-05-04 13:51:13.090 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - null null
+2024-05-04 13:51:13.372 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7106/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 282.5015ms
+2024-05-04 13:51:33.584 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 POST https://localhost:7106/meow/newDOG - application/json 81
+2024-05-04 13:51:33.765 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'MeowBackend.Controllers.Dogsontroller.CreateDog (MeowBackend.API)'
+2024-05-04 13:51:33.833 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "CreateDog", controller = "Dogsontroller"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult`1[System.Guid] CreateDog(MeowBackend.Core.Dtos.DogDto) on controller MeowBackend.Controllers.Dogsontroller (MeowBackend.API).
+2024-05-04 13:51:36.643 +03:00  INF [MeowBackend.API.Controllers.CatsController] добавляем человека: aaa
+2024-05-04 13:51:39.844 +03:00  INF [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (225ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Int32), @p2='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO dogs (id, count, name)
+VALUES (@p0, @p1, @p2);
+2024-05-04 13:51:39.909 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'System.Guid'.
+2024-05-04 13:51:39.938 +03:00  INF [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action MeowBackend.Controllers.Dogsontroller.CreateDog (MeowBackend.API) in 6083.0341ms
+2024-05-04 13:51:39.944 +03:00  INF [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'MeowBackend.Controllers.Dogsontroller.CreateDog (MeowBackend.API)'
+2024-05-04 13:51:39.960 +03:00  INF [Serilog.AspNetCore.RequestLoggingMiddleware] HTTP POST /meow/newDOG responded 200 in 6352.4813 ms
+2024-05-04 13:51:40.009 +03:00  INF [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 POST https://localhost:7106/meow/newDOG - 200 null application/json; charset=utf-8 6430.5213ms
