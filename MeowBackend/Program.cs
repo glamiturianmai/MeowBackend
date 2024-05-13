@@ -1,6 +1,7 @@
 using MeowBackend.API.Configuration;
 using MeowBackend.API.Extensions;
 using MeowBackend.Business;
+//using MeowBackend.Business.Tests.Services; ;
 using MeowBackend.Core.Models.Requestes;
 using MeowBackend.Core.Models.Responses;
 using MeowBackend.Core.Validation;
@@ -22,6 +23,7 @@ try
     builder.Services.ConfigureApiServices();
     builder.Services.ConfigureDalServices();
     builder.Services.ConfigureBllServices();
+    //builder.Services.ConfigureBllTestServices();
     builder.Services.ConfigureDataBase(builder.Configuration);
     builder.Services.AddAutoMapper(typeof(MappingRequestProfile), typeof(MappingResponseProfile));
 

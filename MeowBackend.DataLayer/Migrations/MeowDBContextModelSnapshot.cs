@@ -42,7 +42,11 @@ namespace MeowBackend.DataLayer.Migrations
                         .HasColumnType("integer")
                         .HasColumnName("cat_type");
 
-                    b.Property<Guid?>("OwnerId")
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("boolean")
+                        .HasColumnName("is_deleted");
+
+                    b.Property<Guid>("OwnerId")
                         .HasColumnType("uuid")
                         .HasColumnName("owner_id");
 
@@ -66,20 +70,14 @@ namespace MeowBackend.DataLayer.Migrations
                         .HasColumnType("integer")
                         .HasColumnName("count");
 
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("boolean")
+                        .HasColumnName("is_deleted");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("name");
-
-                    b.Property<string>("PasswordHash")
-                        .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("password_hash");
-
-                    b.Property<string>("PasswordSalt")
-                        .IsRequired()
-                        .HasColumnType("text")
-                        .HasColumnName("password_salt");
 
                     b.HasKey("Id")
                         .HasName("pk_dogs");
@@ -102,6 +100,10 @@ namespace MeowBackend.DataLayer.Migrations
                         .IsRequired()
                         .HasColumnType("text")
                         .HasColumnName("email");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("boolean")
+                        .HasColumnName("is_deleted");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -129,6 +131,8 @@ namespace MeowBackend.DataLayer.Migrations
                     b.HasOne("MeowBackend.Core.Dtos.PersonDto", "Owner")
                         .WithMany("Cats")
                         .HasForeignKey("OwnerId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired()
                         .HasConstraintName("fk_cats_persons_owner_id");
 
                     b.Navigation("Owner");

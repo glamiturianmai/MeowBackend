@@ -11,5 +11,7 @@
         public string PasswordSalt { get; set; }
 
         public List<CatDto> Cats { get; set; }
+
+        public bool IsDeleted { get; set; }
     }
 }

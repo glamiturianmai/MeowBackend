@@ -133,3 +133,5 @@ C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\
 C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\obj\Debug\net8.0\MeowBackend.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\dns\Desktop\MiraculousBackend\MeowBackend\MeowBackend\bin\Debug\net8.0\Moq.dll

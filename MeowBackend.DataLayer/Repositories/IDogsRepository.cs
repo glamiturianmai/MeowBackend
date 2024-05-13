@@ -9,8 +9,11 @@ namespace MeowBackend.DataLayer.Repositories
 {
     public interface IDogsRepository
     {
+        public List<DogDto> GetDogs();
         public DogDto GetDogById(Guid id);
-        public Guid CreateDog(DogDto dog);
+        public Guid AddDog(DogDto dog);
+        public void DeleteDog(Guid id);
+
 
     }
 }

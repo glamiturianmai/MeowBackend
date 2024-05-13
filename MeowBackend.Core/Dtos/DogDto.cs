@@ -12,8 +12,8 @@ namespace MeowBackend.Core.Dtos
 
         public int Count { get; set; }
 
-        public string PasswordHash { get; set; }
-        public string PasswordSalt { get; set; }
+        public bool IsDeleted { get; set; }
+
     }
 }
 

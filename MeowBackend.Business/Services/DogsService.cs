@@ -1,4 +1,5 @@
 ﻿using MeowBackend.Core.Dtos;
+using MeowBackend.Core.Exceptions;
 using MeowBackend.DataLayer.Repositories;
 using Microsoft.AspNetCore.Cors.Infrastructure;
 using Serilog;
@@ -20,37 +21,29 @@ public class DogsService : IDogsService
     }
     public DogDto GetDogById(Guid id) => _dogsRepository.GetDogById(id);
 
-
-    //private static bool ComparePassword(DogDto dog)
-    //{
-    //    var passwordHash = HashPassword.ComputeHash(dog.Password, dog.PasswordSalt, _pepper, _iteration);
-    //    if (dog.PasswordHash != passwordHash)
-    //    {
-    //        Log.Debug($"Пароль пользователя не совпадает: {dog.Name}");
-    //        //throw new AuthenticationException("Username or password did not match.");
-    //    }
-
-    //    return true;
-    //}
+    public List<DogDto> GetDogs() => _dogsRepository.GetDogs();
 
 
-    public Guid CreateUser(DogDto dto)
+
+
+    public Guid AddDog(DogDto dto)
     {
-
-        // user.Id = Guid.NewGuid();
-        dto.PasswordSalt = HashPassword.GenerateSalt();
-       // dto.PasswordHash = HashPassword.ComputeHash(request.Password, dto.PasswordSalt, _pepper, _iteration);
-
-        return _dogsRepository.CreateDog(dto);
+        if (dto.Count  < 0 || dto.Count>100) 
+        {
+            throw new ValidationException("укажите возраст корректно");
+        }
+        if (dto.Name.Length < 3 || dto.Name.Length > 10)
+        {
+            throw new ValidationException("укажите имя корректно");
+        }
+        return _dogsRepository.AddDog(dto);
         
     }
 
-
-
-
-    public Guid CreateDog(DogDto dto)
+    public void DeleteDog(Guid id)
     {
-        return _dogsRepository.CreateDog(dto);
-
+        _logger.Debug($"DogsService - DeleteAddDog {_dogsRepository.GetDogById(id).Name}");
+        _dogsRepository.DeleteDog(id);
     }
+
 }

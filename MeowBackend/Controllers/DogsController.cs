@@ -1,6 +1,7 @@
 ﻿using MeowBackend.API.Controllers;
 using MeowBackend.Business.Services;
 using MeowBackend.Core.Dtos;
+using MeowBackend.Core.Models.Responses;
 using Microsoft.AspNetCore.Mvc;
 using Serilog;
 
@@ -19,11 +20,36 @@ public class DogsController : Controller
         _dogsService = catsService;
     }
 
+    [HttpGet()]
+    public ActionResult<List<DogDto>> GetDogs()
+    {
+        _logger.Information($"получаем всех собак");
+        return Ok(_dogsService.GetDogs());
+    }
+
+    [HttpGet("{id}")]
+    public ActionResult<DogDto> GetDogById(Guid id)
+    {
+        if (id == Guid.Empty)
+        {
+            _logger.Information($"получаем собаку по id {id}");
+            return NotFound($"собака с id {id} не найдена!");
+        }
+        return Ok(_dogsService.GetDogById(id));
+    }
+
     [HttpPost]
-    public ActionResult<Guid> CreateDog([FromBody] DogDto dto)
+    public ActionResult<Guid> AddDog([FromBody] DogDto dto)
     {
         _logger.Information($"добавляем собаку: {dto.Name}");
-        return Ok(_dogsService.CreateDog(dto));
+        return Ok(_dogsService.AddDog(dto));
+    }
+
+    [HttpPost]
+    public void DeleteDog([FromBody] Guid id)
+    {
+        _logger.Information($"удаляем собаку: {_dogsService.GetDogById(id).Name}");
+        _dogsService.DeleteDog(id);
     }
 
 }

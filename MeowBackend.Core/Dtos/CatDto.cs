@@ -11,4 +11,6 @@ public class CatDto : IdContainer
 
     public PersonDto Owner { get; set; }
 
+    public bool IsDeleted { get; set; }
+
 }
